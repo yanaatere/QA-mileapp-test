@@ -15,12 +15,12 @@
       <guid>0b8dcbaf-f837-4b3d-aa62-3ed1cd71c440</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/negative/rest_request_and_validate_email_empty</testCaseId>
+      <testCaseId>Test Cases/API/Negative/rest_request_and_validate_email_empty</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2ff019fa-c596-4945-a344-2e4f5c9de2bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/negative/rest_request_and_validate_email_format_not_matching</testCaseId>
+      <testCaseId>Test Cases/API/Negative/rest_request_and_validate_email_format_not_matching</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

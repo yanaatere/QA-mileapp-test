@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test validating alert when email is empty and click button</description>
+   <name>validate_when_column_email_empty_and_click_button</name>
+   <tag>UI Testing</tag>
+   <comment></comment>
+   <testCaseGuid>a5f2deb1-9955-4589-a266-76cdd7c6b1bf</testCaseGuid>
+</TestCaseEntity>

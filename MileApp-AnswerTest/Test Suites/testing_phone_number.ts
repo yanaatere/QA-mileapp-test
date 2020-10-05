@@ -15,12 +15,12 @@
       <guid>20c9daff-6284-4ff8-9a0c-8e6e3e57b0ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/negative/rest_request_and_validate_mobile_phone_empty</testCaseId>
+      <testCaseId>Test Cases/API/Negative/rest_request_and_validate_mobile_phone_empty</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>57743418-c8fd-4b2e-b556-852abea4eea8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/negative/rest_request_and_validate_mobile_phone_format</testCaseId>
+      <testCaseId>Test Cases/API/Negative/rest_request_and_validate_mobile_phone_format</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

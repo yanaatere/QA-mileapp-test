@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_when_email_is_not_matching</name>
+   <tag>UI Testing</tag>
+   <comment></comment>
+   <testCaseGuid>9c21c94f-0e97-49c8-a11f-5e8fb25a2353</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This testing for verify Alert when name is filled then delete until empty</description>
+   <name>validate_when_name_filled_and_then_fill_empty</name>
+   <tag>UI Negative Testing</tag>
+   <comment></comment>
+   <testCaseGuid>e6e0556b-bcb5-40e9-9e6c-497d4d247bbc</testCaseGuid>
+</TestCaseEntity>

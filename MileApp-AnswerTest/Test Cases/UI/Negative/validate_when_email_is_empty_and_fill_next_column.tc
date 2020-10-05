@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validate_when_email_is_empty_and_fill_next_column</name>
+   <tag>UI Testing</tag>
+   <comment></comment>
+   <testCaseGuid>3de5e1f1-dd64-4cfa-a4a7-9133f272f445</testCaseGuid>
+</TestCaseEntity>

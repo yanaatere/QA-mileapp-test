@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="19.526" tests="2" failures="0" errors="0">
+   <testsuite name="Test" tests="2" failures="0" errors="0" time="19.526" timestamp="2020-10-05 17:40:17" hostname="yanaa - DESKTOP-UIOAM7L" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Reports\\20201005_174008\\Test\\20201005_174008"/>
+         <property name="logFiles" value="D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Reports\\20201005_174008\\Test\\20201005_174008\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yanaa - DESKTOP-UIOAM7L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="169.254.160.42"/>
+         <property name="sessionId" value="4e295cd8d97d4a15db99637ac1196ddf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/Negative/validate_when_email_is_empty_and_fill_next_column" time="16.136" classname="Test Cases/UI/Negative/validate_when_email_is_empty_and_fill_next_column" status="PASSED">
+         <system-out><![CDATA[2020-10-05 17:40:17 - [TEST_CASE][PASSED] - Test Cases/UI/Negative/validate_when_email_is_empty_and_fill_next_column: Test Cases/UI/Negative/validate_when_email_is_empty_and_fill_next_column
+
+2020-10-05 17:40:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-05 17:40:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-05 17:40:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-05 17:40:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-05 17:40:24 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.mile.app/request-demo"): Navigate to 'https://dev.mile.app/request-demo' successfully
+
+2020-10-05 17:40:28 - [MESSAGE][PASSED] - Navigate to 'https://dev.mile.app/request-demo' successfully
+
+2020-10-05 17:40:28 - [TEST_STEP][PASSED] - setText(findTestObject("Component/input_name"), "retere"): Text 'retere' is set on object 'Object Repository/Component/input_name'
+
+2020-10-05 17:40:29 - [MESSAGE][PASSED] - Text 'retere' is set on object 'Object Repository/Component/input_name'
+
+2020-10-05 17:40:29 - [TEST_STEP][PASSED] - setText(findTestObject("Component/input_email"), "yanaandika@ymail.com"): Text 'yanaandika@ymail.com' is set on object 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:30 - [MESSAGE][PASSED] - Text 'yanaandika@ymail.com' is set on object 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Component/input_email"), Keys.chord(LEFT_CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Component/input_email"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:31 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Component/input_email"), ""): Text '' is set on object 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Component/input_Phone number_phone"), "89636743133"): Text '89636743133' is set on object 'Object Repository/Component/input_Phone number_phone'
+
+2020-10-05 17:40:33 - [MESSAGE][PASSED] - Text '89636743133' is set on object 'Object Repository/Component/input_Phone number_phone'
+
+2020-10-05 17:40:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("alert/span_The email field must be a valid email"), "The email field is required"): Actual text and expected text of test object 'Object Repository/alert/span_The email field must be a valid email' are matched.
+
+2020-10-05 17:40:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/alert/span_The email field must be a valid email' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Negative/validate_when_email_is_not_matching" time="2.054" classname="Test Cases/UI/Negative/validate_when_email_is_not_matching" status="PASSED">
+         <system-out><![CDATA[2020-10-05 17:40:33 - [TEST_CASE][PASSED] - Test Cases/UI/Negative/validate_when_email_is_not_matching: Test Cases/UI/Negative/validate_when_email_is_not_matching
+
+2020-10-05 17:40:34 - [TEST_STEP][PASSED] - setText(findTestObject("Component/input_name"), "retere"): Text 'retere' is set on object 'Object Repository/Component/input_name'
+
+2020-10-05 17:40:34 - [MESSAGE][PASSED] - Text 'retere' is set on object 'Object Repository/Component/input_name'
+
+2020-10-05 17:40:34 - [TEST_STEP][PASSED] - setText(findTestObject("Component/input_email"), "yana"): Text 'yana' is set on object 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:35 - [MESSAGE][PASSED] - Text 'yana' is set on object 'Object Repository/Component/input_email'
+
+2020-10-05 17:40:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("alert/span_The email field must be a valid email"), "The email field must be a valid email"): Actual text and expected text of test object 'Object Repository/alert/span_The email field must be a valid email' are matched.
+
+2020-10-05 17:40:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/alert/span_The email field must be a valid email' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-05 17:40:17 - [TEST_SUITE][PASSED] - Test: Test Cases/UI/Negative/validate_when_email_is_not_matching]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
