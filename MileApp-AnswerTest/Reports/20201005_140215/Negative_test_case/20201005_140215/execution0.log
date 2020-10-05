@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-05T14:02:24</date>
+  <millis>1601881344012</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Negative_test_case</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Negative_test_case</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Negative_test_case</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:24</date>
+  <millis>1601881344038</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = yanaa - DESKTOP-UIOAM7L</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">yanaa - DESKTOP-UIOAM7L</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:24</date>
+  <millis>1601881344041</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:24</date>
+  <millis>1601881344043</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 169.254.160.42</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">169.254.160.42</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:24</date>
+  <millis>1601881344046</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.2.205</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.6.2.205</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:24</date>
+  <millis>1601881344486</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/API-Testing/negative/rest_request_and_status_false</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/API-Testing/negative/rest_request_and_status_false</property>
+  <property name="description">This is Negative test case, and get status false</property>
+  <property name="id">Test Cases/API-Testing/negative/rest_request_and_status_false</property>
+  <property name="source">D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Test Cases\\API-Testing\\negative\\rest_request_and_status_false.tc</property>
+  <property name="tag">Api-Negatif</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:25</date>
+  <millis>1601881345154</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;API/request_demo_with_number_alphabetical\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349494</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Reports\\20201005_140215\\Negative_test_case\\20201005_140215\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0b1c8067-9c9d-49e4-8d22-6726372293c1</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349685</millis>
+  <sequence>11</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349686</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;API/request_demo_with_number_alphabetical\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349687</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, \&amp;quot;status\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349845</millis>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349846</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, \&amp;quot;status\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349848</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/API-Testing/negative/rest_request_and_status_false</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349850</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/API-Testing/negative/rest_request_and_status_false</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:29</date>
+  <millis>1601881349882</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone</property>
+  <property name="source">D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Test Cases\\API-Testing\\negative\\rest_request_and_validate_mobile_phone.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:30</date>
+  <millis>1601881350341</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;API/request_demo_with_number_alphabetical\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352078</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Reports\\20201005_140215\\Negative_test_case\\20201005_140215\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">1d56481d-006e-4ab5-b983-8ef8e84f3a04</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352080</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352081</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;API/request_demo_with_number_alphabetical\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352082</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, \&amp;quot;status\&amp;quot;, \&amp;quot;false\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352098</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352099</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, \&amp;quot;status\&amp;quot;, \&amp;quot;false\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352099</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, \&amp;quot;message\&amp;quot;, \&amp;quot;The phone field may only contain numeric characters\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352122</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352123</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, \&amp;quot;message\&amp;quot;, \&amp;quot;The phone field may only contain numeric characters\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352124</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352126</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-05T14:02:32</date>
+  <millis>1601881352203</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Negative_test_case</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-05T14:52:37</date>
+  <millis>1601884357272</millis>
+  <sequence>350</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>4528</thread>
+  <message>HAR: C:\\Users\\yanaa\\AppData\\Local\\Temp\\har8318305799414228653\\requests\\ModalContext\\10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">eda3edb9-3fa8-40b8-8e41-1ae150a39988</property>
+</record>
+<record>
+  <date>2020-10-05T14:55:25</date>
+  <millis>1601884525141</millis>
+  <sequence>384</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>4638</thread>
+  <message>HAR: C:\\Users\\yanaa\\AppData\\Local\\Temp\\har1345454668529612939\\requests\\ModalContext\\11.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">b62d11ee-51d4-4380-8839-b97dee89ffe9</property>
+</record>
+<record>
+  <date>2020-10-05T15:03:51</date>
+  <millis>1601885031150</millis>
+  <sequence>442</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>4962</thread>
+  <message>HAR: C:\\Users\\yanaa\\AppData\\Local\\Temp\\har2017220284564537854\\requests\\ModalContext\\12.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">1b3139ca-507d-45c5-a576-291f29a21c5c</property>
+</record>
+<record>
+  <date>2020-10-05T15:04:09</date>
+  <millis>1601885049443</millis>
+  <sequence>450</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>4975</thread>
+  <message>HAR: C:\\Users\\yanaa\\AppData\\Local\\Temp\\har3500467107855736850\\requests\\ModalContext\\13.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">bf077b0f-3de0-42a6-a34c-c128485fd372</property>
+</record>

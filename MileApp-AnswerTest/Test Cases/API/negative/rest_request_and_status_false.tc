@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is Negative test case, and get status false</description>
+   <name>rest_request_and_status_false</name>
+   <tag>Negative API Testing</tag>
+   <comment></comment>
+   <testCaseGuid>d6bed47a-83b9-434a-b770-207e1605ff8a</testCaseGuid>
+</TestCaseEntity>

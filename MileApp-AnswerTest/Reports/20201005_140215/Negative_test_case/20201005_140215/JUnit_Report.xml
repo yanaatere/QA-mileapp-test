@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Negative_test_case" time="8.191" tests="2" failures="0" errors="0">
+   <testsuite name="Negative_test_case" tests="2" failures="0" errors="0" time="8.191" timestamp="2020-10-05 14:02:24" hostname="yanaa - DESKTOP-UIOAM7L" id="Test Suites/Negative_test_case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Reports\\20201005_140215\\Negative_test_case\\20201005_140215"/>
+         <property name="logFiles" value="D:\\Belajar\\QA-mileapp-test\\MileApp-AnswerTest\\Reports\\20201005_140215\\Negative_test_case\\20201005_140215\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yanaa - DESKTOP-UIOAM7L"/>
+         <property name="hostAddress" value="169.254.160.42"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+      </properties>
+      <testcase name="Test Cases/API-Testing/negative/rest_request_and_status_false" time="5.364" classname="Test Cases/API-Testing/negative/rest_request_and_status_false" status="PASSED">
+         <system-out><![CDATA[2020-10-05 14:02:24 - [TEST_CASE][PASSED] - Test Cases/API-Testing/negative/rest_request_and_status_false: Test Cases/API-Testing/negative/rest_request_and_status_false
+
+2020-10-05 14:02:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/request_demo_with_number_alphabetical")): Send request successfully
+
+2020-10-05 14:02:29 - [MESSAGE][INFO] - HAR: D:\Belajar\QA-mileapp-test\MileApp-AnswerTest\Reports\20201005_140215\Negative_test_case\20201005_140215\requests\main\0.har
+
+2020-10-05 14:02:29 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-05 14:02:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", false): Verify element property value successfully
+
+2020-10-05 14:02:29 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone" time="2.244" classname="Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone" status="PASSED">
+         <system-out><![CDATA[2020-10-05 14:02:29 - [TEST_CASE][PASSED] - Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone: Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone
+
+2020-10-05 14:02:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/request_demo_with_number_alphabetical")): Send request successfully
+
+2020-10-05 14:02:32 - [MESSAGE][INFO] - HAR: D:\Belajar\QA-mileapp-test\MileApp-AnswerTest\Reports\20201005_140215\Negative_test_case\20201005_140215\requests\main\1.har
+
+2020-10-05 14:02:32 - [MESSAGE][PASSED] - Send request successfully
+
+2020-10-05 14:02:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "false"): Verify element property value successfully
+
+2020-10-05 14:02:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-10-05 14:02:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "The phone field may only contain numeric characters"): Verify element property value successfully
+
+2020-10-05 14:02:32 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-05 14:02:24 - [TEST_SUITE][PASSED] - Negative_test_case: Test Cases/API-Testing/negative/rest_request_and_validate_mobile_phone]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

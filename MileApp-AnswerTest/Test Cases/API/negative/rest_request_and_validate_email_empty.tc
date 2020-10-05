@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Is Negative Testing for column email is empty</description>
+   <name>rest_request_and_validate_email_empty</name>
+   <tag>Negative API Testing</tag>
+   <comment></comment>
+   <testCaseGuid>b5717c32-fe91-4251-9938-c6cea9a9e2e0</testCaseGuid>
+</TestCaseEntity>

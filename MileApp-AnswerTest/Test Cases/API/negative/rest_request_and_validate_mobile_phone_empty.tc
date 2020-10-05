@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is negative test to validate mobile phone empty</description>
+   <name>rest_request_and_validate_mobile_phone_empty</name>
+   <tag>Negative API Testing</tag>
+   <comment></comment>
+   <testCaseGuid>b08a4f10-4d45-48cb-9d91-b346d9a8ce69</testCaseGuid>
+</TestCaseEntity>

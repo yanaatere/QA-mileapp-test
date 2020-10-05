@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>try_to_request_demo</name>
+   <tag>positive-api-testing</tag>
+   <comment></comment>
+   <testCaseGuid>a8158b5e-8f90-487d-bdbb-f17242f1d090</testCaseGuid>
+</TestCaseEntity>

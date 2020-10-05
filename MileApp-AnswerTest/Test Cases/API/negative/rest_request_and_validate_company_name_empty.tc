@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is test case for validate company name empty</description>
+   <name>rest_request_and_validate_company_name_empty</name>
+   <tag>Negative API Testing</tag>
+   <comment></comment>
+   <testCaseGuid>68c89e3f-7a26-4ccc-a26b-14298060bd63</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is api testing for post request demo and verify that data is matching from input</description>
+   <name>rest_request_and_verify_all_input</name>
+   <tag>Positive Api Testing</tag>
+   <comment></comment>
+   <testCaseGuid>d204cfe4-6882-48d0-a1c5-e84fcce7d5e8</testCaseGuid>
+</TestCaseEntity>
