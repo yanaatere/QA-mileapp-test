@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Rest Request To API'
 response = WS.sendRequest(findTestObject('API/request_demo_with_empty_email'))
 
-WS.verifyResponseStatusCode(response, 400)
-
+'Verify Status'
 WS.verifyElementPropertyValue(response, 'status', 'false')
 

@@ -15,3 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Rest Request To Api'
+response = WS.sendRequest(findTestObject('API/request_demo_with_company_name_empty'))
+
+'Verify Response Code'
+WS.verifyResponseStatusCode(response, 400)
+
+'Verify response Status'
+WS.verifyElementPropertyValue(response, 'status', false)
+
+'verify response message'
+WS.verifyElementPropertyValue(response, 'message', 'The organization name field is required.')
+

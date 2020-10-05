@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>This is negative test to validate status 404</description>
-   <name>rest_request_and_validate_status_400</name>
+   <name>rest_request_and_validate_status_code_400</name>
    <tag>Negative Api Testing</tag>
    <comment></comment>
    <testCaseGuid>63a9fd2f-b9ab-4b6a-9d17-bc08a3cf6a67</testCaseGuid>

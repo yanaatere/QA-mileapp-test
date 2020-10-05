@@ -16,14 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'rest request to API'
-response = WS.sendRequest(findTestObject('API/request_demo_with_empty_email'))
-
-'verify response code'
-WS.verifyResponseStatusCode(response, 400)
+response = WS.sendRequest(findTestObject('API/request_demo'))
 
 'verify response status'
-WS.verifyElementPropertyValue(response, 'status', false)
-
-'verify response message'
-WS.verifyElementPropertyValue(response, 'message', 'The email field is required.')
-
+WS.verifyElementPropertyValue(response, 'status', 'true')
