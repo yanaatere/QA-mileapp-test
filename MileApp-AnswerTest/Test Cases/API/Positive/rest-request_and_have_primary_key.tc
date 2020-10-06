@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Rest request to identify that have primary key</description>
+   <name>rest-request_and_have_primary_key</name>
+   <tag>Positive API Testing</tag>
+   <comment></comment>
+   <testCaseGuid>ba02a2ba-d6f9-4d2a-b726-7b657896c1e7</testCaseGuid>
+</TestCaseEntity>

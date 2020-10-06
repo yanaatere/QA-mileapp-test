@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\yanaa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\UI\\Negative\\filled_empty_company_name_and_filled_Company_name\\20201006_071455\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\yanaa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\API\\Positive\\rest-request_and_have_primary_key\\20201006_073928\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/UI/Negative/filled_empty_company_name_and_filled_Company_name', new TestCaseBinding('Test Cases/UI/Negative/filled_empty_company_name_and_filled_Company_name',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/API/Positive/rest-request_and_have_primary_key', new TestCaseBinding('Test Cases/API/Positive/rest-request_and_have_primary_key',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
