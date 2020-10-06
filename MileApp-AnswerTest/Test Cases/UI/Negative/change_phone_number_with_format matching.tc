@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Isi phone number dengan symbol kemudia ganti dengan format yang sesuai</description>
+   <name>change_phone_number_with_format matching</name>
+   <tag>UI Testing</tag>
+   <comment></comment>
+   <testCaseGuid>c8bdb8f6-0119-4fd4-8704-56de182dfafb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is UI Testing for validate phone number when alpahbetical</description>
+   <name>validate_when_phone_number_have_symbol</name>
+   <tag>UI Testing</tag>
+   <comment></comment>
+   <testCaseGuid>c8cd315e-18c0-4f10-894c-c40879519e28</testCaseGuid>
+</TestCaseEntity>

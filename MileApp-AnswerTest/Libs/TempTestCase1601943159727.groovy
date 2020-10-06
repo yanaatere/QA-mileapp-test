@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\yanaa\\AppData\\Local\\Temp\\Katalon\\20201006_050130\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\yanaa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\UI\\Negative\\filled_empty_company_name_and_filled_Company_name\\20201006_071239\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runWSVerificationScript(new TestCaseBinding('',[:]), 'import static org.assertj.core.api.Assertions.*\n\nimport com.kms.katalon.core.testobject.RequestObject\nimport com.kms.katalon.core.testobject.ResponseObject\nimport com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS\nimport com.kms.katalon.core.webservice.verification.WSResponseManager\n\nimport groovy.json.JsonSlurper\nimport internal.GlobalVariable as GlobalVariable\n\nRequestObject request = WSResponseManager.getInstance().getCurrentRequest()\n\nResponseObject response = WSResponseManager.getInstance().getCurrentResponse()', FailureHandling.STOP_ON_FAILURE, true)
-
+        TestCaseMain.runTestCase('Test Cases/UI/Negative/filled_empty_company_name_and_filled_Company_name', new TestCaseBinding('Test Cases/UI/Negative/filled_empty_company_name_and_filled_Company_name',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    
