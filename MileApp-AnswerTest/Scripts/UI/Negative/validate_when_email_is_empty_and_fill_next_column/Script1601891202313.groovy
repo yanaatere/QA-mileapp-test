@@ -30,8 +30,6 @@ WebUI.sendKeys(findTestObject('Component/input_email'), Keys.chord(Keys.LEFT_CON
 
 WebUI.sendKeys(findTestObject('Component/input_email'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Component/input_email'), '')
-
 WebUI.setText(findTestObject('Component/input_phone_number'), '89636743133')
 
 WebUI.verifyElementText(findTestObject('Alert/span_email'), 'The email field is required')
